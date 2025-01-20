@@ -15,3 +15,56 @@
     font-style: normal;
   }
  /* TODO Lobster font have to add */
+
+ /* shared style */
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ .section-details{
+    font-size: 1.125rem;
+    color: #3E3E3E;
+    margin-bottom: 19px;
+ }
+ .btn-primary{
+  border: none;
+  background-color: #FF5959;
+  padding: 12px 30px;
+  color: #FFFFFF;
+  border-radius: 5px;
+ }
+ .display-flex{
+  display: flex;
+ }
+ body{
+  max-width: 1128px;
+  margin: 0 auto;
+ }
+ /* hero */
+ .hero{
+  justify-content: center;
+  align-items: center;
+  gap: 131px;
+ }
+ .hero-info{
+  max-width: 520px;
+ }
+ .hero-title{
+    font-size: 60px;
+    color: #333333;
+    border-left: 4px solid #FF5959;
+ }
+ .hero-title span{
+    color: #FFAD5A;
+ }
+ .hero-end-text{
+  margin-top: 33px;
+ }
+ .hero-img{
+  width: 426px;
+  /* background-image: url('../images/shapes/shape-4.png'); */
+ }
+ .hero-img img{
+  width: 100%;
+  
+ }
