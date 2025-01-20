@@ -108,13 +108,33 @@
   font-size: 1.5rem;
   margin-bottom: 16px;
  }
+ /* develop */
+ .develop{
+  gap: 72px;
+  align-items: center;
+ }
+ .develop-title{
+  font-size: 2.25rem;
+  color: #333333;
+ }
+ .develop-img{
+  max-width: 400px;
+ }
+ .develop-img img{
+  width: 100%;
+ }
+ .develop-info{
+  max-width: 654px;
+ }
  /* responsive */
  @media screen and (max-width:576px){
   .hero,
-  .mission-container
+  .mission-container,
+  .develop
   {
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
   }
  }
