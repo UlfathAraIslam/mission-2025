@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200..800&display=swap');
   .regular {
     font-family: "Poppins", serif;
     font-weight: 400;
@@ -12,6 +14,17 @@
   .bold {
     font-family: "Poppins", serif;
     font-weight: 700;
+    font-style: normal;
+  }
+  .lobster-regular {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .manrope {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
   }
  /* TODO Lobster font have to add */
@@ -45,7 +58,7 @@
 .text-center{
   text-align: center;
 }
- body{
+ main,header{
   max-width: 1128px;
   margin: 0 auto;
  }
@@ -150,6 +163,20 @@
  .corona-app-info-title{
   font-size: 3rem;
   margin-bottom: 16px;
+ }
+ /* footer */
+ .footer{
+  background-color: black;
+  padding: 40px;
+ }
+ .footer-title{
+  color: #FFFFFF;
+  font-size: 2.25rem;
+  margin-bottom: 1.5rem;
+ }
+ .footer-details{
+  color: #D9DBE1;
+  font-size: 0.8rem;
  }
  /* responsive */
  @media screen and (max-width:576px){
