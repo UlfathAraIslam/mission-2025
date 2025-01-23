@@ -126,15 +126,46 @@
  .develop-info{
   max-width: 654px;
  }
+ /* global */
+ .global{
+  flex-direction: row-reverse;
+  gap: 100px;
+ }
+ /* corona app */
+ .corona-app-title{
+  font-size: 3rem;
+ }
+ .corona-app-img-box{
+  max-width: 338px;
+
+ }
+ .corona-app-img-box img{
+  width: 100%;
+ }
+ .corona-app-container{
+  padding: 80px;
+  align-items: center;
+  gap: 163px;
+ }
+ .corona-app-info-title{
+  font-size: 3rem;
+  margin-bottom: 16px;
+ }
  /* responsive */
  @media screen and (max-width:576px){
   .hero,
   .mission-container,
-  .develop
+  .develop,
+  .global,
+  .corona-app-container
   {
     flex-direction: column;
     align-items: center;
     text-align: center;
 
+  }
+  .corona-app-container{
+    gap: 20px;
+    padding: 20px;
   }
  }
